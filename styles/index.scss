@@ -177,8 +177,45 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
+    html {
+        font-size: 14px;
+    }
+
     #rating-box, #thank-you-box {
         width: 290px;
         height: 290px;
+        padding: 1rem;
+    }
+
+    #rating-box {
+        img {
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+        }
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 0.8rem;
+        }
+        ul {
+            margin-bottom: 0.8rem;
+            li {
+                button {
+                    margin: 0.3rem;
+                }
+            }
+        }
+    }
+    
+    #thank-you-box {
+        img {
+            width: 120px;
+        }
+    }
+
+    .attribution {
+        font-size: 0.8rem;
     }
 }
